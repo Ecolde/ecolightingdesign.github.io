@@ -1,0 +1,31 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+h1{
+    font-weight: 800;
+    color: #faf5f0;
+}
+.w3-top, #menu-icon, #header-color {
+    background-color: #AAA096;
+}
+.w3-bar-item{
+    height: 9.6%;
+}
+.w3-bar-block .w3-bar-item {padding:20px}
+h1 {
+    text-align: center;
+    margin-top: 0.5%;
+}
+.bold-text{
+    font-weight: 900;
+}
+.light-text{
+    font-weight: 300;
+}
+footer{
+    background-color: #aaa0962e;
+}
+.copyright:before {
+    content: " \00A9";
+}
+
