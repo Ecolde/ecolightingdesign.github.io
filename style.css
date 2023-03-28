@@ -28,4 +28,26 @@ footer{
 .copyright:before {
     content: " \00A9";
 }
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+.product-content{
+    margin-left: 15%;
+}
+
+.product-img-carousel{
+    margin-right: -25%;
+    margin-top: 7%;
+}
+.product-img {
+    margin-top: 3%;
+}
+
+.product-desc{
+   font-size: 20px;
+   width: 100%;
+   inline-size: 550px; 
+   overflow: hidden;
+}
 
