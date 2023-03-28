@@ -34,6 +34,7 @@ ul{
 }
 
 .product-info {
+    padding-top: 2%;
     padding-bottom: 5%;
 }
 
@@ -45,7 +46,7 @@ ul{
     margin-top: 7%;
 }
 .product-img {
-    margin-top: 3%;
+    margin-top: 1.5%;
     position: relative;
 }
 
@@ -66,7 +67,7 @@ ul{
   }
 
 .product-desc{
-    margin-left: 7%;
+    margin-left: 5%;
     font-size: 20px;
 }
 
