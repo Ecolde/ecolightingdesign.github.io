@@ -32,6 +32,11 @@ ul{
     list-style: none;
     padding-left: 0;
 }
+
+.product-info{
+    padding-bottom: 5%;
+}
+
 .product-content{
     margin-left: 15%;
 }
