@@ -37,17 +37,34 @@ ul{
 }
 
 .product-img-carousel{
-    margin-right: -25%;
     margin-top: 7%;
 }
 .product-img {
     margin-top: 3%;
+    position: relative;
 }
 
+#product-img-1{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#product-img-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#product-img-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
 .product-desc{
-   font-size: 20px;
-   width: 100%;
-   inline-size: 550px; 
-   overflow: hidden;
+    margin-left: 7%;
+    font-size: 20px;
+    width: 500px;
+    overflow: hidden;
+
 }
 
