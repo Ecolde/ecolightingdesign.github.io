@@ -51,6 +51,7 @@ ul{
 
 .product-img-carousel{
     margin-top: 7%;
+    cursor: pointer;
 }
 .product-img {
     margin-top: 1.5%;
