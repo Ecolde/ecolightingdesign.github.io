@@ -5,6 +5,11 @@ h1{
     font-weight: 800;
     color: #faf5f0;
 }
+
+a {
+    text-decoration: none;
+}
+
 .w3-top, #menu-icon, #header-color {
     background-color: #AAA096;
 }
@@ -24,6 +29,8 @@ h1 {
 }
 footer{
     background-color: #aaa0962e;
+    position:relative;
+    bottom: 0;
 }
 .copyright:before {
     content: " \00A9";
@@ -50,24 +57,18 @@ ul{
     position: relative;
 }
 
-#product-img-1{
+#product-img-1, #product-img-2, #product-img-3, #product-img-4, #product-img-5, #product-img-6, #product-img-7, #product-img-8, #product-img-9{
     position: relative;
     top: 0;
     left: 0;
 }
-#product-img-2{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-#product-img-3{
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
 
 .product-desc{
     margin-left: 5%;
     font-size: 20px;
+}
+.enquire-btn{
+    text-decoration: underline;
+    text-underline-offset: 8px;
 }
 
