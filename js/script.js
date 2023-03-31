@@ -13,7 +13,7 @@ function solGrey(imgs) {
     expandImg.parentElement.style.display = "block";
   }
 
-  function solGreen(imgs) {
+function solGreen(imgs) {
     var expandImg = document.getElementById("product-img-2");
     expandImg.src = imgs.src;
     expandImg.parentElement.style.display = "block";
@@ -25,6 +25,41 @@ function solBrown(imgs) {
     expandImg.parentElement.style.display = "block";
   }
 
+  function wallV1(imgs) {
+    var expandImg = document.getElementById("product-img-4");
+    expandImg.src = imgs.src;
+    expandImg.parentElement.style.display = "block";
+  }
+
+function wallV2(imgs) {
+    var expandImg = document.getElementById("product-img-5");
+    expandImg.src = imgs.src;
+    expandImg.parentElement.style.display = "block";
+  }
+
+function lightPath(imgs) {
+    var expandImg = document.getElementById("product-img-6");
+    expandImg.src = imgs.src;
+    expandImg.parentElement.style.display = "block";
+  }
+  
+function lightFenV1(imgs) {
+    var expandImg = document.getElementById("product-img-7");
+    expandImg.src = imgs.src;
+    expandImg.parentElement.style.display = "block";
+  }
+
+function lightFenV2(imgs) {
+    var expandImg = document.getElementById("product-img-8");
+    expandImg.src = imgs.src;
+    expandImg.parentElement.style.display = "block";
+  } 
+
+function lightFenV3(imgs) {
+    var expandImg = document.getElementById("product-img-9");
+    expandImg.src = imgs.src;
+    expandImg.parentElement.style.display = "block";
+  }
 
     
     
