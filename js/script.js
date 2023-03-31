@@ -8,7 +8,7 @@ function w3_open() {
   }
 
   function myFunction(imgs) {
-    if(('body').is('.sol-lamp-grey')){
+    if((document.body.className.match('.sol-lamp-grey'))){
       var expandImg = document.getElementById("product-img-1");
       expandImg.src = imgs.src;
       expandImg.parentElement.style.display = "block";
