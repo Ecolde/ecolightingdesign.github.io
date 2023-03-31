@@ -6,3 +6,9 @@ function w3_open() {
   function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
   }
+
+  function myFunction(imgs) {
+    var expandImg = document.getElementById("product-img-1");
+    expandImg.src = imgs.src;
+    expandImg.parentElement.style.display = "block";
+  }
