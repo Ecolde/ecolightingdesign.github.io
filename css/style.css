@@ -5,11 +5,16 @@ h1{
     font-weight: 800;
     color: #faf5f0;
 }
-
 a {
     text-decoration: none;
 }
-
+hr{
+    visibility: hidden;
+}
+.w3-ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #fff;
+}
 .w3-top, #menu-icon, #header-color {
     background-color: #AAA096;
 }
@@ -47,6 +52,9 @@ ul{
 
 .product-content{
     margin-left: 15%;
+}
+.contact {
+    margin-left:-10%;
 }
 
 .product-img-carousel{
