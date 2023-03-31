@@ -50,14 +50,6 @@ ul{
     padding-bottom: 5%;
 }
 
-.product-content{
-    margin-left: 15%;
-}
-
-.product-img-carousel{
-    margin-top: 7%;
-    cursor: pointer;
-}
 .product-img {
     margin-top: 1.5%;
     position: relative;
@@ -69,8 +61,11 @@ ul{
     left: 0;
 }
 
+.product-img-carousel{
+    margin-top: 7%;
+    cursor: pointer;
+}
 .product-desc{
-    margin-left: 5%;
     font-size: 20px;
 }
 .enquire-btn{
