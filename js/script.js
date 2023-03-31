@@ -8,53 +8,53 @@ function w3_open() {
   }
 
   function myFunction(imgs) {
-    if($('body').is('.sol-lamp-grey')){
+    if(('body').is('.sol-lamp-grey')){
       var expandImg = document.getElementById("product-img-1");
       expandImg.src = imgs.src;
       expandImg.parentElement.style.display = "block";
     
-    }else if($('body').is('.sol-lamp-green')){
+    }else if(('body').is('.sol-lamp-green')){
       var expandImg = document.getElementById("product-img-2");
       expandImg.src = imgs.src;
       expandImg.parentElement.style.display = "block";
 
-    }else if($('body').is('.sol-lamp-brown')){
+    }else if(('body').is('.sol-lamp-brown')){
     
       var expandImg = document.getElementById("product-img-3");
       expandImg.src = imgs.src;
       expandImg.parentElement.style.display = "block";
 
-    }else if($('body').is('.light-wall-v1')){
+    }else if(('body').is('.light-wall-v1')){
 
       var expandImg = document.getElementById("product-img-4");
       expandImg.src = imgs.src;
       expandImg.parentElement.style.display = "block";
 
-    }else if($('body').is('.light-wall-v2')){
+    }else if(('body').is('.light-wall-v2')){
 
       var expandImg = document.getElementById("product-img-5");
       expandImg.src = imgs.src;
       expandImg.parentElement.style.display = "block";
 
-    }else if($('body').is('.light-path')){
+    }else if(('body').is('.light-path')){
 
       var expandImg = document.getElementById("product-img-6");
       expandImg.src = imgs.src;
       expandImg.parentElement.style.display = "block";
 
-    }else if($('body').is('.light-fen-v1')){
+    }else if(('body').is('.light-fen-v1')){
 
       var expandImg = document.getElementById("product-img-7");
       expandImg.src = imgs.src;
       expandImg.parentElement.style.display = "block";
 
-    }else if($('body').is('.light-fen-v2')){
+    }else if(('body').is('.light-fen-v2')){
 
       var expandImg = document.getElementById("product-img-8");
       expandImg.src = imgs.src;
       expandImg.parentElement.style.display = "block";
 
-    }else if($('body').is('.light-fen-v3')){
+    }else if(('body').is('.light-fen-v3')){
 
       var expandImg = document.getElementById("product-img-9");
       expandImg.src = imgs.src;
