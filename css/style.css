@@ -8,8 +8,12 @@ h1{
 a {
     text-decoration: none;
 }
-hr{
-    visibility: hidden;
+hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #AAA096;  /* old IE */
+    background-color: #AAA096;  /* Modern Browsers */
 }
 .w3-ul li {
     padding: 8px 16px;
@@ -64,12 +68,13 @@ ul{
 .product-img-carousel{
     margin-top: 7%;
     cursor: pointer;
+    padding-bottom: 3.5%;
 }
 .product-desc{
     font-size: 20px;
+    margin-top: 3.5%;
 }
 .enquire-btn{
     text-decoration: underline;
     text-underline-offset: 8px;
 }
-
