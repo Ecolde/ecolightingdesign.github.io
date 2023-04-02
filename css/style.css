@@ -15,6 +15,12 @@ hr {
     color: #AAA096;  /* old IE */
     background-color: #AAA096;  /* Modern Browsers */
 }
+.w3-top, #menu-icon, #header-color {
+    background-color: #AAA096;
+}
+.w3-bar-item{
+    height: 9.6%;
+}
 .menu-title{
     margin-left: -4%;
 }
@@ -31,12 +37,6 @@ header{
 .w3-ul li {
     padding: 8px 16px;
     border-bottom: 1px solid #fff;
-}
-.w3-top, #menu-icon, #header-color {
-    background-color: #AAA096;
-}
-.w3-bar-item{
-    height: 9.6%;
 }
 .w3-bar-block .w3-bar-item {padding:20px}
 h1 {
@@ -61,23 +61,19 @@ ul{
     list-style: none;
     padding-left: 0;
 }
-
 .product-info {
     padding-top: 2%;
     padding-bottom: 5%;
 }
-
 .product-img {
     margin-top: 1.5%;
     position: relative;
 }
-
 #product-img-1, #product-img-2, #product-img-3, #product-img-4, #product-img-5, #product-img-6, #product-img-7, #product-img-8, #product-img-9{
     position: relative;
     top: 0;
     left: 0;
 }
-
 .product-img-carousel{
     margin-top: 7%;
     cursor: pointer;
@@ -90,4 +86,7 @@ ul{
 .enquire-btn{
     text-decoration: underline;
     text-underline-offset: 8px;
+}
+.w3-hoverable tbody tr:hover, .w3-ul.w3-hoverable li:hover {
+    background-color:#aaa0962e;
 }
