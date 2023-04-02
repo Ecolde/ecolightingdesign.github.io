@@ -15,6 +15,19 @@ hr {
     color: #AAA096;  /* old IE */
     background-color: #AAA096;  /* Modern Browsers */
 }
+.menu-title{
+    margin-left: -4%;
+}
+.header-img{
+    margin-top: 4.5%;
+    height:550px;
+}
+header{
+    display: inline;
+}
+.w3-wide{
+    letter-spacing: 2px;
+}
 .w3-ul li {
     padding: 8px 16px;
     border-bottom: 1px solid #fff;
