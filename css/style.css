@@ -30,6 +30,8 @@ hr {
 .header-img{
     min-height: 100%;
     margin-top: 4.5%;
+}
+.header-img, .about-img{
     opacity: 0.9;
 }
 header{
