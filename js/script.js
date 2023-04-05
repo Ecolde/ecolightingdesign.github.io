@@ -2,17 +2,17 @@
 function w3_open() {
     document.getElementById("mySidebar").style.display = "block";
   }
-   
 function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
   }
 
+
+
 // Get the button
 let mybutton = document.getElementById("myBtn");
-  
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
-  
+
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
      mybutton.style.display = "block";
@@ -20,13 +20,17 @@ function scrollFunction() {
       mybutton.style.display = "none";
   }
 }
-  
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+  var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+  if (currentScroll > 0) {
+       window.requestAnimationFrame(topFunction);
+       window.scrollTo (0,currentScroll - (currentScroll/5));
   }
-  
+};
+
+
+  // Get images for carousel
 function solGrey(imgs) {
     var expandImg = document.getElementById("product-img-1");
     expandImg.src = imgs.src;
