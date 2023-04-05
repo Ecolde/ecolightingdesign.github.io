@@ -42,11 +42,10 @@ hr {
     padding: 15px;
     border-radius: 50%;
     width:60px;
-  }
-  
-  #myBtn:hover {
+}
+#myBtn:hover {
     background-color: #555;
-  }
+}
 .w3-top{
     position: relative;
 }
