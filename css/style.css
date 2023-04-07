@@ -8,8 +8,19 @@ h1{
 .about-heading{
     color: #AAA096;
 }
+
 a {
     text-decoration: none;
+}
+
+.where-to-buy{
+    text-decoration: none;
+}
+.where-to-buy p:hover{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1.5px;
+    text-decoration-color: #AAA096;
 }
 hr {
     border: none;
@@ -114,6 +125,7 @@ ul{
 .enquire-btn{
     text-decoration: underline;
     text-underline-offset: 8px;
+    text-decoration-color: #AAA096;
 }
 .w3-hoverable tbody tr:hover, .w3-ul.w3-hoverable li:hover {
     background-color:#aaa0962e;
